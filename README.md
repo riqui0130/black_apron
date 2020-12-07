@@ -22,3 +22,17 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+questionsテーブル
+|Column|Type|Options|
+|------|----|-------|
+|id|integer|null: false|
+|content|string|null: false|
+
+choicesテーブル
+|Column|Type|Options|
+|------|----|-------|
+|id|integer|null: false|
+|content|string|null: false|
+|questions_id|integer|null: false|
+|is_answer|string|null: false|
